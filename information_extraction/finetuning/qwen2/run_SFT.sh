@@ -1,0 +1,1 @@
+python SFT_qwen2.py --model_name='Qwen/Qwen2-7B' --path_dataset='./data/local_hf_'$variable'_cot' --output_dir='./qwen-2_GAVROCHE_'$variable'_COT-models/' --logging_dir='./qwen-2_GAVROCHE_'$variable'_COT-models-logs/' --epochs=30 --batch_size=2 --save_steps=100 --logging_steps=10 --seed=42 --learning_rate=2e-05")

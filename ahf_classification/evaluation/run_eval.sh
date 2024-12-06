@@ -1,0 +1,2 @@
+### Run eval variables
+python ./eval_SFT/EvaluateSFT_fewshot_cot.py --peft_name='qwen-2_GAVROCHE_classif_ICA_COT-models' --base_model_name='qwen-2_GAVROCHE_classif_ICA_COT-models' --variable='classif_ICA' --input_prompt='prompt_no_answer_3shot'")
